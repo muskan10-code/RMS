@@ -1,0 +1,60 @@
+<body>
+    <div class="main-block">
+      <div class="sidenav">
+        <i class="fa fa-user"></i>
+        <h4>Username</h4>
+        <div class="elements">
+          <a href="/manager">View all employee </a>
+          <a href="/task">View all task</a>
+          <a href="/counter"> Task Count</a>
+          <!-- <a href="#">Finished task</a> -->
+        </div>
+      </div>
+  
+      <div class="main-block-without-nav">
+        <header class="header-1">
+          <h3 class="heading-1">
+            Reward Management System - Manager Panel
+          </h3>
+          <div class="dropdown"><img src="../../assets/user-solid.svg" alt="img">
+            <div class="dropdown-content">
+              <a href="#"><i class="fa fa-user"> Profile</i></a>
+              <br>
+              <br>
+              <a href="/"><i class="fa fa-sign-out"> Logout</i></a>
+            </div>
+          </div>
+        </header>
+        <div class="div-reward">
+          <div class="div-6">
+              <h1>Reward Reports</h1>
+              <div class="client-count-wrp mt-100 ">
+                  <div class="container">
+                      
+                      <div class="client-count-wrp-inner">
+                          <div class="cards">
+                              <h4>{{finishedtask}}</h4>
+                              <p>Completed tasks</p>
+                          </div>
+                     
+                          <div class="cards">
+                              <h4>{{pendingtask}}</h4>
+                              <p>Pending tasks</p>
+                          </div>
+                       
+                          <div class="cards">
+                              <h4>{{totaltask}}</h4>
+                              <p>Total tasks</p>
+                          </div>
+                       
+                      </div>
+                  </div>
+              
+              </div>
+              </div>
+      </div>
+  </div>
+
+</div>
+
+  </body>
